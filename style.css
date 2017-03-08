@@ -1,0 +1,38 @@
+#carousel
+{
+    height:300px;
+    width:500px;
+    overflow: hidden;
+    position:relative;
+    margin:auto;
+}
+#carousel ul
+{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    padding:0px;
+    margin:0px;
+    position: absolute; 
+    left:-500px;
+}
+#carousel li
+{
+    display:flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content:center;
+    width:500px;
+    height: 300px;
+}
+
+li[data-index="1"]{
+    background-color: #ff66ff;
+}
+li[data-index="2"]{
+    background-color: #66ff66;
+}
+li[data-index="3"]{
+    background-color: #3399ff;
+}
+
